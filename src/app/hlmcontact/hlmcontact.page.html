@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-icon name="arrow-undo-outline" [routerLink] ="['/folder/inbox']"></ion-icon>
+    </ion-buttons>
+    <ion-title>Contact Me</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Muhamad Fahrizal Praditya</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" class="ion-padding">
+    <h1>Contact Me</h1>
+    <ion-item>
+      <ion-label position="floating">Name : </ion-label>
+      <ion-input placeholder="Input Your Name"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="floating">Email :</ion-label>
+      <ion-input placeholder="Input Your Name"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label>Message : </ion-label>
+      <ion-textarea placeholder="Input Your Message"></ion-textarea>
+    </ion-item>
+    <br>
+    <ion-button color="secondary" expand="full">Kirim</ion-button>
+  </div>
+  <div class="footer">
+    <footer><b>Copyright &copy; 2021 Muhamad Fahrizal Praditya</b></footer>
+  </div>
+</ion-content>
